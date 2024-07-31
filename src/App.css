@@ -1,0 +1,57 @@
+.App {
+    font-family: Arial, sans-serif;
+    text-align: center;
+  }
+  
+  .post-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .post-list li {
+    margin-bottom: 20px;
+    padding: 20px;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .post-list li:last-child {
+    border-bottom: none;
+  }
+  
+  .post-list h2 {
+    font-weight: bold;
+    margin-top: 0;
+  }
+  
+  .post-list button {
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .post-list button:hover {
+    background-color: #3e8e41;
+  }
+  
+  .pagination {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  .pagination button {
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 0 10px;
+  }
+  
+  .pagination button:hover {
+    background-color: #3e8e41;
+  }
